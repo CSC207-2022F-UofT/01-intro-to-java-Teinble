@@ -149,7 +149,7 @@ public class Basics {
 
         // Fill in the rest of the body here
         String [] arr = to_split.split(" ");
-        for (int j = 0; j <= 7; j ++){
+        for (int j = 0; j <= 6; j ++){
             ret.append(arr[j].charAt(0));
         }
         return ret.toString();
@@ -178,7 +178,7 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
-        for (int i =0; i <= arr.length; i += 2){
+        for (int i =1; i <= arr.length - 1; i += 2){
             current_sum += arr[i];
         }
         return current_sum;
